@@ -1,0 +1,81 @@
+swagger: '2.0'
+info:
+  version: v2.0
+  title: Pokemon
+  description: A subset of the operations included in the Pokemon API at pokeapi.co
+basePath: /pokemon
+schemes:
+  - https
+paths:
+  /:
+    get:
+      summary: Get Pokemon attributes
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: 200 OK
+  /berry/:
+    get:
+      summary: Get berries
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: 200 OK
+  /berry-firmness/:
+    get:
+      summary: Get berry firmnesses
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: 200 OK
+  '/berry-firmness/{firmness}/':
+    parameters:
+      - name: firmness
+        in: path
+        required: true
+        type: string
+        enum: [very-soft, soft, hard, very-hard, super-hard]
+        description: Berry firmness such as very-soft
+    get:
+      summary: Get berries with a given firmness
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: 200 OK
+  /berry-flavor/:
+    get:
+      summary: Get berry flavors
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: 200 OK
+  '/berry-flavor/{flavor}/':
+    parameters:
+      - name: flavor
+        in: path
+        required: true
+        type: string
+        enum: [spicy, dry, sweet, bitter, sour]
+        description: Berry flavor such as spicy
+    get:
+      summary: Get berries with a given flavor
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: 200 OK
+definitions: {}
+x-ibm-configuration:
+  assembly:
+    execute:
+      - invoke:
+          target-url: 'https://pokeapi.co/api/v2'
+          verb: keep
+          title: invoke
+  cors:
+    enabled: true
