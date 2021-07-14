@@ -3,7 +3,7 @@ module github.com/IBM/apigateway-go-sdk
 go 1.13
 
 require (
-	github.com/IBM-Cloud/ibm-cloud-cli-sdk v0.6.7
+	github.com/IBM-Cloud/ibm-cloud-cli-sdk v0.5.3
 	github.com/IBM/go-sdk-core/v3 v3.2.4
 	github.com/davecgh/go-spew v1.1.1
 	github.com/fatih/color v1.9.0 // indirect
