@@ -1,6 +1,6 @@
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
-github.com/IBM-Cloud/ibm-cloud-cli-sdk v0.6.7 h1:eHgfQl6IeSmzWUyiSi13CvoFYsovoyqWlpHX0pa9J54=
-github.com/IBM-Cloud/ibm-cloud-cli-sdk v0.6.7/go.mod h1:RiUvKuHKTBmBApDMUQzBL14pQUGKcx/IioKQPIcRQjs=
+#github.com/IBM-Cloud/ibm-cloud-cli-sdk v0.6.7 h1:eHgfQl6IeSmzWUyiSi13CvoFYsovoyqWlpHX0pa9J54=
+#github.com/IBM-Cloud/ibm-cloud-cli-sdk v0.6.7/go.mod h1:RiUvKuHKTBmBApDMUQzBL14pQUGKcx/IioKQPIcRQjs=
 github.com/IBM/apigateway-go-sdk v0.0.0-20200319165837-991ed0dde8e8 h1:RjmhdfIpRwxMQzyeVrGXEaQ8LKNK+olI5AO+rP2+MYE=
 github.com/IBM/go-sdk-core v3.0.0+incompatible h1:1QYh6UklIvEBW3qwVf2xDiFZtKa+PiDzdr9LcaTU4pA=
 github.com/IBM/go-sdk-core/v3 v3.2.0 h1:nvn5b2Jy/ivcJViiyPHUsQ4Z98ENMs0cQ28kTX3aCBE=
